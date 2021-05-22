@@ -1,0 +1,23 @@
+.footer {
+  /* padding: 2.5rem 1.75rem 0; */
+  background: var(--background-secondary);
+}
+
+.footer-button {
+  color: var(--background-secondary);
+  background: var(--brand-secondary);
+}
+
+.footer-link {
+  color: var(--body-color);
+  text-decoration: none;
+}
+
+.copyright {
+  color: var(--heading-color);
+  font-size: 0.75rem;
+}
+
+footer .divider {
+  border: 1px solid var(--divider-color);
+}

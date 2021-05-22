@@ -1,0 +1,7 @@
+.hero {
+  padding: 2rem 2.3125rem;
+  background: var(--background-secondary);
+  font-weight: var(--font-weight-medium);
+  border: 0;
+  border-bottom: 1px solid #dfdfdf;
+}
