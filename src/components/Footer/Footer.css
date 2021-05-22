@@ -1,6 +1,9 @@
 .footer {
-  /* padding: 2.5rem 1.75rem 0; */
   background: var(--background-secondary);
+}
+
+.footer-main {
+  margin: 2.5rem 0;
 }
 
 .footer-button {
@@ -20,4 +23,10 @@
 
 footer .divider {
   border: 1px solid var(--divider-color);
+}
+
+@media screen and (min-width: 768px) {
+  .footer-main {
+    margin: 5rem 0;
+  }
 }

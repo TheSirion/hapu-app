@@ -6,32 +6,32 @@ import Col from 'react-bootstrap/Col'
 import './CtaForm.css'
 
 const CtaForm = () => {
-  const [name, useName] = useState('')
-  const [email, useEmail] = useState('')
+  // const [name, useName] = useState('')
+  // const [email, useEmail] = useState('')
 
-  const GetName = (event) => {
-    useName(event.target.input)
-  }
+  // const GetName = (event) => {
+  //   useName(event.target.input)
+  // }
 
-  const GetEmail = (event) => {
-    useEmail(event.target.input)
-  }
+  // const GetEmail = (event) => {
+  //   useEmail(event.target.input)
+  // }
 
-  const sendData = () => {
-    fetch('https://api.jungledevs.com/api/v1/challenge-newsletter/', {
-      method: 'POST',
-      body: {
-        name: name,
-        email: email,
-      },
-    })
-      .then(function (response) {
-        return response.json()
-      })
-      .then(function (data) {
-        console.log(data)
-      })
-  }
+  // const sendData = () => {
+  //   fetch('https://api.jungledevs.com/api/v1/challenge-newsletter/', {
+  //     method: 'POST',
+  //     body: {
+  //       name: name,
+  //       email: email,
+  //     },
+  //   })
+  //     .then(function (response) {
+  //       return response.json()
+  //     })
+  //     .then(function (data) {
+  //       console.log(data)
+  //     })
+  // }
 
   return (
     <Form className="w-100 w-lg-50 mx-auto w-50">

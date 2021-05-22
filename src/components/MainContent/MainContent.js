@@ -25,7 +25,7 @@ const MainContent = () => {
               your costs in half be, well, fantastic?! If only it was easy to
               connect with other parents to share your costs? Well now it is,
               with Hapu.{' '}
-              <a href="#" className="link">
+              <a href="/" className="link">
                 Hapu means tribe
               </a>{' '}
               and it’s our foundational 3 tribal principles that empowers you to
@@ -33,7 +33,7 @@ const MainContent = () => {
               power to create new affordable solutions in childcare that work
               for you and your community.
             </p>
-            <a href="#" className="link">
+            <a href="/" className="link">
               Ready to get started?
             </a>
           </div>
@@ -82,7 +82,7 @@ const MainContent = () => {
               our automated payment system takes care of the rest. You need
               never talk money or who owes what.
             </p>
-            <a href="#">
+            <a href="/">
               Read how Bridget’s share (without Hapu) ended over $15
             </a>
           </div>
@@ -100,7 +100,7 @@ const MainContent = () => {
             clearly defined process, transparency over money and equality of
             participation.
           </p>
-          <a href="#">Read how Hapu’s tribal background defines our app</a>
+          <a href="/">Read how Hapu’s tribal background defines our app</a>
           <Image src={ImageSection4} className="d-none d-lg-block" />
         </div>
       </Section>

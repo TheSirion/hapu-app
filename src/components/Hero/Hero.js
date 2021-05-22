@@ -17,7 +17,7 @@ const Hero = () => {
           </Col>
           <Col className="m-lg-auto text-center text-lg-left">
             <h4 className="display-4">
-              <a href="#" className="link">
+              <a href="/">
                 Sarah&apos;s day care available now in North Sydney
               </a>{' '}
               Wednesday, Thursday, Friday - 7:30 - 5:30
