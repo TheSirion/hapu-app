@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav'
 import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button'
 
-import Badge from '../../assets/images/svg/Badge.svg'
+import Badge from '@assets/images/svg/Badge.svg'
 
 import './Navigation.css'
 

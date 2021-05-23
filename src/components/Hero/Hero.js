@@ -4,8 +4,9 @@ import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 
+import ProfileImage from '@assets/images/png/ProfileImage.png'
+
 import './Hero.css'
-import ProfileImage from '../../assets/images/png/ProfileImage.png'
 
 const Hero = () => {
   return (

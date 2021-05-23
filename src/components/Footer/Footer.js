@@ -5,12 +5,13 @@ import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 
+import Calendar from '@assets/images/svg/calendar-icon.svg'
+import LogoComplete from '@assets/images/svg/logo-complete.svg'
+import Facebook from '@assets/images/svg/Facebook.svg'
+import Twitter from '@assets/images/svg/Twitter.svg'
+import Instagram from '@assets/images/svg/Instagram.svg'
+
 import './Footer.css'
-import Calendar from '../../assets/images/svg/calendar-icon.svg'
-import LogoComplete from '../../assets/images/svg/logo-complete.svg'
-import Facebook from '../../assets/images/svg/Facebook.svg'
-import Twitter from '../../assets/images/svg/Twitter.svg'
-import Instagram from '../../assets/images/svg/Instagram.svg'
 
 const Footer = () => {
   return (

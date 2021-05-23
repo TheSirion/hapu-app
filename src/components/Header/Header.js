@@ -5,12 +5,12 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Image from 'react-bootstrap/Image'
 
-import Navigation from '../Navigation/Navigation'
+import Navigation from '@components/Navigation/Navigation'
+
+import HeaderImage from '@assets/images/png/ImageHeader.png'
+import PlayButton from '@assets/images/svg/play-button.svg'
 
 import './Header.css'
-
-import HeaderImage from '../../assets/images/png/ImageHeader.png'
-import PlayButton from '../../assets/images/svg/play-button.svg'
 
 const Header = () => {
   return (

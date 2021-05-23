@@ -1,14 +1,15 @@
 import React from 'react'
 import Image from 'react-bootstrap/Image'
 
-import Section from '../Section/Section'
-import CtaForm from '../CtaForm/CtaForm'
+import Section from '@components/Section/Section'
+import CtaForm from '@components/CtaForm/CtaForm'
+
+import ImageSection1 from '@assets/images/png/ImageSection1.png'
+import ImageSection3 from '@assets/images/png/ImageSection3.png'
+import ImageSection4 from '@assets/images/png/ImageSection4.png'
+import ImageSection5 from '@assets/images/png/ImageSection5.png'
 
 import './MainContent.css'
-import ImageSection1 from '../../assets/images/png/ImageSection1.png'
-import ImageSection3 from '../../assets/images/png/ImageSection3.png'
-import ImageSection4 from '../../assets/images/png/ImageSection4.png'
-import ImageSection5 from '../../assets/images/png/ImageSection5.png'
 
 const MainContent = () => {
   return (

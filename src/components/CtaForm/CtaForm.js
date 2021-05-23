@@ -6,36 +6,35 @@ import Col from 'react-bootstrap/Col'
 import './CtaForm.css'
 
 const CtaForm = () => {
-  const [name, useName] = useState('')
-  const [email, useEmail] = useState('')
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
 
-  const setName = (event) => {
-    useName(event.target.value)
-  }
+  const sendData = async () => {
+    event.preventDefault()
 
-  const setEmail = (event) => {
-    useEmail(event.target.value)
-  }
-
-  const sendData = (name, email) => {
-    if (!name) return null
-    if (!email) return null
+    if (!name || !email) {
+      window.alert("Please inform a valid name and email.")
+      return
+    }
 
     const data = { name, email }
 
-    fetch('https://api.jungledevs.com/api/v1/challenge-newsletter/', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    })
-      .then(function (response) {
-        return response.json()
-      })
-      .then(function (data) {
-        console.log(data)
-      })
+    try {
+      const result = await fetch(
+        'https://api.jungledevs.com/api/v1/challenge-newsletter/',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data),
+        }
+      )
+
+      console.log(await result.json())
+    } catch (error) {
+      console.log(error)
+    }
   }
 
   return (
@@ -48,7 +47,7 @@ const CtaForm = () => {
             placeholder="Your Name"
             className="h-100"
             value={name}
-            onChange={setName}
+            onChange={event => setName(event.target.value)}
             required
           />
         </Col>
@@ -59,12 +58,12 @@ const CtaForm = () => {
             placeholder="Your Email"
             className="h-100"
             value={email}
-            onChange={setEmail}
+            onChange={event => setEmail(event.target.value)}
             required
           />
         </Col>
         <Col className="col-12 col-lg-2">
-          <Button className="w-100" onClick={() => sendData(name, email)}>
+          <Button className="w-100" onClick={() => sendData()}>
             Send
           </Button>
         </Col>
