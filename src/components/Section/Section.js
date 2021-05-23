@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import Container from 'react-bootstrap/Container'
 
 import './Section.css'
@@ -15,6 +16,11 @@ const Section = ({ divider, children }) => {
       {addDivider()}
     </>
   )
+}
+
+Section.propTypes = {
+  divider: PropTypes.bool,
+  children: PropTypes.element,
 }
 
 export default Section
