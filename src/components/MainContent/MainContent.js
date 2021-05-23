@@ -50,8 +50,8 @@ const MainContent = () => {
       {/* SECTION 2 */}
       <Section divider>
         <div className="d-flex flex-column">
-          <div className="text-center">
-            <h3 className="display-3">
+          <div className="text-center section-2-text">
+            <h3 className="display-3 mb-3">
               Are you a parent without a nanny and looking to share?
             </h3>
             <h6>
@@ -101,7 +101,7 @@ const MainContent = () => {
             participation.
           </p>
           <a href="/">Read how Hapu’s tribal background defines our app</a>
-          <Image src={ImageSection4} className="d-none d-lg-block" />
+          <Image src={ImageSection4} className="d-none d-lg-block mx-lg-5" />
         </div>
       </Section>
 
@@ -109,12 +109,14 @@ const MainContent = () => {
       <Section>
         <div className="text-center">
           <Image src={ImageSection5} />
-          <h2 className="display-2">Coming soon: Nanny Share Daily Diary!</h2>
-          <p>
+          <h2 className="display-2 mt-4 mb-3">
+            Coming soon: Nanny Share Daily Diary!
+          </h2>
+          <p className="section-5-text">
             With the Hapu daily diary your nanny will be able to update you and
             your sharers with photos and commentary of the day. You and sharers
             will receive notifications and you’ll be able to login to view the
-            daily adventures fo your little ones. We can’t wait!
+            daily adventures for your little ones. We can’t wait!
           </p>
         </div>
       </Section>
