@@ -18,23 +18,20 @@ const MainContent = () => {
       <Section divider>
         <div className="d-flex flex-column flex-lg-row">
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-between align-items-stretch order-2 order-lg-1 text-center text-lg-left px-0">
-            <h2 className="display-2 mb-3">
+            <h2 className="display-2 section-title">
               Share your home, <br /> nanny and costs
             </h2>
             <p className="section-1-text">
               You have a fantastic home, a fantastic nanny and wouldn’t cutting
               your costs in half be, well, fantastic?! If only it was easy to
               connect with other parents to share your costs? Well now it is,
-              with Hapu.{' '}
-              <a href="/" className="link">
-                Hapu means tribe
-              </a>{' '}
-              and it’s our foundational 3 tribal principles that empowers you to
-              create and manage your own tribe. A tribe that together has the
-              power to create new affordable solutions in childcare that work
-              for you and your community.
+              with Hapu. <a href="/">Hapu means tribe</a> and it’s our
+              foundational 3 tribal principles that empowers you to create and
+              manage your own tribe. A tribe that together has the power to
+              create new affordable solutions in childcare that work for you and
+              your community.
             </p>
-            <a href="/" className="link">
+            <a href="/" className="mt-3">
               Ready to get started?
             </a>
           </div>
@@ -66,16 +63,18 @@ const MainContent = () => {
 
       {/* SECTION 3 */}
       <Section divider>
-        <div className="d-flex flex-column flex-lg-row section-3">
-          <div className="col-12 col-lg-6 px-0">
+        <div className="d-flex flex-column flex-lg-row">
+          <div className="col-12 col-lg-6 text-center section-3-image">
             <Image
               src={ImageSection3}
               alt="shared payment demo"
-              className="w-100"
+              className="d-block m-auto w-100 w-lg-75"
             />
           </div>
-          <div className="col-12 col-lg-6 px-0">
-            <h2 className="display-2">Shared payments made simple</h2>
+          <div className="col-12 col-lg-6 px-0 text-center text-lg-left section-3-text">
+            <h2 className="display-2 section-title">
+              Shared payments made simple
+            </h2>
             <p>
               Sometimes it’s hard enough just sharing a restaurant bill. Try
               sharing that bill week in, week out and you might encounter more
@@ -92,17 +91,24 @@ const MainContent = () => {
 
       {/* SECTION 4 */}
       <Section divider>
-        <div className="d-flex flex-column text-center">
-          <h2 className="display-2">A framework built for the long term</h2>
-          <p>
-            Childcare is for the long term. And you need a framework you can
-            count on that gives your share long term viability and success.
-            That’s why we’ve defined Hapu around our three tribal principles;
-            clearly defined process, transparency over money and equality of
-            participation.
-          </p>
-          <a href="/">Read how Hapu’s tribal background defines our app</a>
-          <Image src={ImageSection4} className="d-none d-lg-block mx-lg-5" />
+        <div className="text-center">
+          <div className="section-4-text">
+            <h2 className="display-2 section-title">
+              A framework built for the long term
+            </h2>
+            <p className="mb-lg-5">
+              Childcare is for the long term. And you need a framework you can
+              count on that gives your share long term viability and success.
+              That’s why we’ve defined Hapu around our three tribal principles;
+              clearly defined process, transparency over money and equality of
+              participation.
+            </p>
+            <a href="/">Read how Hapu’s tribal background defines our app</a>
+          </div>
+          <Image
+            src={ImageSection4}
+            className="d-none d-lg-block m-auto w-lg-75"
+          />
         </div>
       </Section>
 
@@ -110,7 +116,7 @@ const MainContent = () => {
       <Section>
         <div className="text-center">
           <Image src={ImageSection5} />
-          <h2 className="display-2 mt-4 mb-3">
+          <h2 className="display-2 mt-4 section-title">
             Coming soon: Nanny Share Daily Diary!
           </h2>
           <p className="section-5-text">

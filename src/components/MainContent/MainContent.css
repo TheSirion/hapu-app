@@ -1,14 +1,27 @@
-.section-3 {
-  gap: 2rem;
+.section-title {
+  margin-bottom: 1rem;
 }
 
 .section-2-text {
   margin-bottom: 2rem;
 }
 
+.section-3-text {
+  margin-top: 2.5rem;
+}
+
 @media screen and (min-width: 992px) {
+  .section-title {
+    margin-bottom: 2.5rem;
+  }
+
   .section-2-text {
     margin-bottom: 4.625rem;
+  }
+
+  .section-4-text {
+    padding: 0 10rem;
+    margin-bottom: 4rem;
   }
 }
 
