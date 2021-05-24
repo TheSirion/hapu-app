@@ -1,20 +1,17 @@
 import React from 'react'
-import Image from 'react-bootstrap/Image'
-
-import ProfileImage from '@assets/images/png/ProfileImage.png'
 
 import './Hero.css'
 
 const Hero = () => {
   return (
-    <section className="hero d-flex justify-content-center px-5 m-0">
-      <div className="text-center flex">
-        <Image src={ProfileImage} alt="Profile Image" className="avatar" />
-        <h4 className="display-4">
-          <a href="/">Sarah&apos;s day care available now in North Sydney</a>{' '}
-          Wednesday, Thursday, Friday - 7:30 - 5:30
-        </h4>
-      </div>
+    <section className="hero text-center px-5 m-0">
+      <h2 className="display-2">
+        Create the childcare you need at a price you can afford
+      </h2>
+      <p>
+        Connect with other local families to share a nanny from as low as
+        $10.00/hr each. Create your family profile today to get started.
+      </p>
     </section>
   )
 }
