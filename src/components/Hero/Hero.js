@@ -11,12 +11,12 @@ import './Hero.css'
 const Hero = () => {
   return (
     <section className="hero d-flex justify-content-center px-5 m-0">
-      <Container>
-        <Row className="d-flex justify-content-center align-items-center">
-          <Col lg={1} className="d-flex justify-content-center">
-            <Image src={ProfileImage} alt="Profile Image" className="mr-3" />
+      {/* <Container>
+        <Row className="d-flex gx-5 justify-content-center align-items-center">
+          <Col xs={12} lg={2} className="d-flex avatar">
+            <Image src={ProfileImage} alt="Profile Image" />
           </Col>
-          <Col className="m-lg-auto text-center text-lg-left">
+          <Col xs={12} lg={8} className="text-center text-lg-left">
             <h4 className="display-4">
               <a href="/">
                 Sarah&apos;s day care available now in North Sydney
@@ -25,7 +25,14 @@ const Hero = () => {
             </h4>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
+      <div className="text-center flex">
+      <Image src={ProfileImage} alt="Profile Image" className="avatar" />
+      <h4 className="display-4">
+        <a href="/">Sarah&apos;s day care available now in North Sydney</a>{' '}
+          Wednesday, Thursday, Friday - 7:30 - 5:30
+      </h4>
+      </div>
     </section>
   )
 }
