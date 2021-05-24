@@ -13,7 +13,7 @@ const CtaForm = () => {
     event.preventDefault()
 
     if (!name || !email) {
-      window.alert("Please inform a valid name and email.")
+      window.alert('Please inform a valid name and email.')
       return
     }
 
@@ -38,7 +38,7 @@ const CtaForm = () => {
   }
 
   return (
-    <Form className="mx-auto">
+    <Form className="mx-auto" type="submit">
       <Form.Row>
         <Col className="col-12 col-lg-5 mb-lg-0 input">
           <Form.Label srOnly>Your Name</Form.Label>
@@ -47,7 +47,7 @@ const CtaForm = () => {
             placeholder="Your Name"
             className="h-100"
             value={name}
-            onChange={event => setName(event.target.value)}
+            onChange={(event) => setName(event.target.value)}
             required
           />
         </Col>
@@ -58,12 +58,12 @@ const CtaForm = () => {
             placeholder="Your Email"
             className="h-100"
             value={email}
-            onChange={event => setEmail(event.target.value)}
+            onChange={(event) => setEmail(event.target.value)}
             required
           />
         </Col>
         <Col className="col-12 col-lg-2">
-          <Button className="w-100" onClick={() => sendData()}>
+          <Button type="submit" className="w-100" onClick={() => sendData()}>
             Send
           </Button>
         </Col>

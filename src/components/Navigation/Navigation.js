@@ -11,7 +11,7 @@ import './Navigation.css'
 const Navigation = () => {
   return (
     <Navbar className="navbar py-0 justify-content-between">
-      <Navbar.Brand href="#home" className="pt-0">
+      <Navbar.Brand href="/" className="pt-0">
         <Image src={Badge} alt="Logo Badge" />
       </Navbar.Brand>
       <Nav className="mr-auto d-none d-lg-inline-flex">

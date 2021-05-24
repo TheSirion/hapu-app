@@ -8,6 +8,8 @@
   --background-primary: #faf9f7;
   --background-secondary: #ffffff;
   --divider-color: #dfdfdf;
+  --hover-color-primary: #05a877;
+  --hover-color-secondary: #802ddf;
   --font-family: 'Inter', sans-serif;
   --font-weight-regular: 400;
   --font-weight-medium: 500;
@@ -85,8 +87,25 @@ img {
   border-radius: 4px;
 }
 
-.btn-primary:hover {
-  background-color: var(--brand-secondary);
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--hover-color-primary);
+}
+
+.btn-primary:active {
+  background-color: #013d2b;
+}
+
+.btn-secondary {
+  color: var(--background-secondary);
+  background: var(--brand-secondary);
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+  background-color: var(--hover-color-secondary);
+}
+
+.btn-secondary:active {
+
 }
 
 .navbar-light .navbar-nav .nav-link {
