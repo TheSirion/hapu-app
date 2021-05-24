@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# Hapu App 
+This webpage was built by me, Matheus Ribeiro, for the React challenge for a job opening as Front-End Developer at Jungle Devs. It's a single landing page built with React and using React-Bootstrap for styling, ESLint for linting, Prettier for formatting, and Netlify for deployment and A/B testing. Click this link to see it live: https://hapu.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Report And Final Thoughts
+I really enjoyed building this landing page. It was both challenging and fun. While I did stumble into some roadblocks along the way, I somehow managed to overcome all (or at least most) of them, and even took the time to add a few "extras". For instance, I wanted it to feel as complete as possible, so I made a new favicon, changed the page title, and added new colors for button states.
 
-## Available Scripts
+I spent a lot of time making sure the page was not only responsive but also that every component looked great no matter the screen size. It's also (mostly) very accurate to the Figma design. That was by far the most challenging part, not because I can't do it, but because it takes a lot of effort and dedication, and I'm proud of the result.
 
-In the project directory, you can run:
+I admit there are probably *way* too many Bootstrap classes in some components. I meant to refactor and reduce the clutter as much as I could, but unfortunately there wasn't time to take a good look at that.
 
-### `yarn start`
+For the A/B testing, I used Netlify's solution, that's honestly pretty basic and limited (compared to Google's Optimize, for instance). I chose to use Netlify for A/B testing because that's where the app is hosted, so it was just convenient to do both things in a single platform. Besides, I had some trouble figuring how to install Optimize. I had never done A/B testing before, so I was a little surprised it even was part of the test lol!
+It's set up for 50% chance for either variant, and Netlify automatically installs a cookie to make sure they're consistent to the user, so you might want to try in different browsers and devices to check both variants. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installing And Running Locally
+1. First of all, make sure you have both Git and NodeJS installed in your computer. Git is a version control command line program that we'll use to download the project from GitHub. NodeJS is a JavaScript run-time that comes bundled with npm, a package manager we'll use to install and manage the dependencies Hapu relies on and don't come in the GitHub repository. They're both essential for Hapu to run. 
+2. After that, clone this repository by running `git clone https://github.com/TheSirion/hapu-app.git` in the folder you want it to be installed in. Git will create a new folder with all the project's files and folders. 
+3. Make sure the file `package.json` is in the root folder (it most like is), and run `npm install`. This command will create a new folder called `node_modules` and install all the dependencies the project needs to run smoothly. 
+4. After that, it should be ready to run. Just run `npm start` and, soon enough, you should see a new tab in your web browser with Hapu running in the local server (`localhost:3000`).
+  
+## Creating The Production Build
+The production build is an optimized version of the project that's prepared for deployment and use. The development build comes with several features that assist in development but can be a major performance hog for the app. Create-React-App makes sure to bundle all files in the best way possible so that the final build has the best performance. The production build is minified, meaning its size is much smaller than the development build, and the code is automatically optimized. 
+To create a production build, simply run `npm run build`. Npm will create a new folder called `build` with the production build in it. 
+But in order to run the app, you must deploy it somewhere. A few possible options are GitHub Pages, Heroku, Vercel, and Netlify. I chose Netlify, and you can check the deployed version here: https://hapu.netlify.app/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
