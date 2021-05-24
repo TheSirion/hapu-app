@@ -2,7 +2,7 @@
 This webpage was built by me, Matheus Ribeiro, for the React challenge for a job opening as Front-End Developer at Jungle Devs. It's a single landing page built with React and using React-Bootstrap for styling, ESLint for linting, Prettier for formatting, and Netlify for deployment and A/B testing. Click this link to see it live: https://hapu.netlify.app/
 
 ## Report And Final Thoughts
-I really enjoyed building this landing page. It was both challenging and fun. While I did stumble into some roadblocks along the way, I somehow managed to overcome all (or at least most) of them, and even took the time to add a few "extras". For instance, I wanted it to feel as complete as possible, so I made a new favicon, changed the page title, and added new colors for button states.
+I really enjoyed building this landing page. It was both challenging and fun. While I did stumble into some roadblocks along the way, I somehow managed to overcome all (or at least most) of them, and even took the time to add a few "extras". For instance, I wanted it to feel as complete as possible, so I made a new favicon, changed the page title, and added new colors for button states. I also implemented absolute imports because that's so cool.
 
 I spent a lot of time making sure the page was not only responsive but also that every component looked great no matter the screen size. It's also (mostly) very accurate to the Figma design. That was by far the most challenging part, not because I can't do it, but because it takes a lot of effort and dedication, and I'm proud of the result.
 
