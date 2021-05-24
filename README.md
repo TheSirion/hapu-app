@@ -10,6 +10,9 @@ I admit there are probably *way* too many Bootstrap classes in some components. 
 
 For the A/B testing, I used Netlify's solution that's honestly pretty basic and limited (compared to Google's Optimize, for instance). It's still in beta, after all. I chose to use Netlify for A/B testing because that's where the app is hosted, so it was just convenient to do both things in a single platform. Besides, I had some trouble figuring how to install Optimize. I had never done A/B testing before, so I was a little surprised it even was part of the test lol!
 It's set up for 50% chance for either variant, and Netlify automatically installs a cookie to make sure they're consistent to the user, so you might want to try in different browsers and devices to check both variants. 
+Alternatively, you can simply check these links: 
+Master branch variant: https://master--hapu.netlify.app/
+A/B branch variant: https://a-b--hapu.netlify.app/
 
 ## Installing And Running Locally
 1. First of all, make sure you have both Git and NodeJS installed in your computer. Git is a version control command line program that we'll use to download the project from GitHub. NodeJS is a JavaScript run-time that comes bundled with npm, a package manager we'll use to install and manage the dependencies Hapu relies on and don't come in the GitHub repository. They're both essential for Hapu to run. 
