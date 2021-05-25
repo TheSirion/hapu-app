@@ -32,7 +32,7 @@ const Header = () => {
             </a>
           </Col>
           <Col lg={6} className="d-none d-lg-flex justify-content-end">
-            <Image src={HeaderImage} alt="header image" />
+            <Image src={HeaderImage} alt="Nanny Share notification demo" />
           </Col>
         </Row>
       </Container>

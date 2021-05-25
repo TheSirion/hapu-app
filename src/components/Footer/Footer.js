@@ -32,7 +32,7 @@ const Footer = () => {
         <Container className="my-5">
           <Row>
             <Col className="col-12 col-lg-3 justify-self-start align-self-center">
-              <Image src={LogoComplete} />
+              <Image src={LogoComplete} alt="Hapu logo" />
             </Col>
             <Col className="d-flex flex-wrap justify-content-center align-items-center">
               <h5 className="display-5 mx-2 mb-lg-0">

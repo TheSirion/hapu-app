@@ -38,7 +38,7 @@ const MainContent = () => {
           <div className="col-12 col-lg-6 p-auto order-1 order-lg-2 px-0 mb-4">
             <Image
               src={ImageSection1}
-              alt="section one"
+              alt="Nanny Share map UI demo"
               className="d-block m-auto"
             />
           </div>
@@ -67,7 +67,7 @@ const MainContent = () => {
           <div className="col-12 col-lg-6 text-center section-3-image">
             <Image
               src={ImageSection3}
-              alt="shared payment demo"
+              alt="Shared Payment UI demo"
               className="d-block m-auto"
             />
           </div>
@@ -105,14 +105,18 @@ const MainContent = () => {
             </p>
             <a href="/">Read how Hapu’s tribal background defines our app</a>
           </div>
-          <Image src={ImageSection4} className="d-none d-lg-block m-auto" />
+          <Image
+            src={ImageSection4}
+            className="d-none d-lg-block m-auto"
+            alt="payment history UI demo"
+          />
         </div>
       </Section>
 
       {/* SECTION 5 */}
       <Section>
         <div className="text-center section-5">
-          <Image src={ImageSection5} />
+          <Image src={ImageSection5} alt="Daily Diary logo" />
           <h2 className="display-2 mt-4 section-title">
             Coming soon: Nanny Share Daily Diary!
           </h2>
