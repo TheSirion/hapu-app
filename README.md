@@ -15,6 +15,14 @@ Alternatively, you can simply check these links:
 - Master branch variant: https://master--hapu.netlify.app/
 - A/B branch variant: https://a-b--hapu.netlify.app/
 
+## Changelog
+This is a list of changes made to the project after I delivered it to Jungle Devs in the Monday morning, 05/24/2021. They're mostly small tweaks and improvements that I believe were important.
+
+- 05/25/2021
+  - Improved spacing in elements inside Header, Footer, and inside sections in the MainContent;
+  - Improved responsive sizing for the images. Now they're less likely to look blurry in some screen sizes;
+  - Added alt tags to images that didn't have one, and updated the ones that had to make sure they were more descriptive.
+
 ## Installing And Running Locally
 1. First of all, make sure you have both Git and NodeJS installed in your computer. Git is a version control command line program that we'll use to download the project from GitHub. NodeJS is a JavaScript run-time that comes bundled with npm, a package manager we'll use to install and manage the dependencies Hapu relies on and don't come in the GitHub repository. They're both essential for Hapu to run. 
 2. After that, clone this repository by running `git clone https://github.com/TheSirion/hapu-app.git` in the folder you want it to be installed in. Git will create a new folder with all the project's files and folders. 
