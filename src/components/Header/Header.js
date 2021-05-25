@@ -17,11 +17,11 @@ const Header = () => {
     <Jumbotron as="header" className="header rounded-0 mb-0 pt-0 px-0">
       <Navigation className="mx-3" />
       <Container className="mt-5">
-        <Row className="d-flex justify-content-center align-items-center">
+        <Row className="d-flex justify-content-center align-items-stretch">
           <Col lg={6} className="text-center text-lg-left">
-            <h2 className="display-2">
+            <h1 className="display-1">
               Easily create or join a local nanny share with Hapu
-            </h2>
+            </h1>
             <p>
               Hapu is Airbnb for nanny share. Share your home, nanny and costs
               and create new flexible, affordable solutions in childcare.

@@ -35,22 +35,22 @@ const Footer = () => {
               <Image src={LogoComplete} />
             </Col>
             <Col className="d-flex flex-wrap justify-content-center align-items-center">
-              <h5 className="display-5 mx-2 footer-link">
+              <h5 className="display-5 mx-2 mb-lg-0">
                 <a href="/" className="footer-link">
                   Share Your Nanny
                 </a>
               </h5>
-              <h5 className="display-5 mx-2">
+              <h5 className="display-5 mx-2 mb-lg-0">
                 <a href="/" className="footer-link">
                   Our Story
                 </a>
               </h5>
-              <h5 className="display-5 mx-2">
+              <h5 className="display-5 mx-2 mb-lg-0">
                 <a href="/" className="footer-link">
                   Blog
                 </a>
               </h5>
-              <h5 className="display-5 mx-2">
+              <h5 className="display-5 mx-2 mb-lg-0">
                 <a href="/" className="footer-link">
                   Terms &amp; Privacy
                 </a>

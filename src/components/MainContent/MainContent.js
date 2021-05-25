@@ -16,7 +16,7 @@ const MainContent = () => {
     <main className="px-0">
       {/* SECTION 1 */}
       <Section divider>
-        <div className="d-flex flex-column flex-lg-row">
+        <div className="d-flex flex-column flex-lg-row section-1">
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-between align-items-stretch order-2 order-lg-1 text-center text-lg-left px-0">
             <h2 className="display-2 section-title">
               Share your home, <br /> nanny and costs
@@ -63,15 +63,15 @@ const MainContent = () => {
 
       {/* SECTION 3 */}
       <Section divider>
-        <div className="d-flex flex-column flex-lg-row">
+        <div className="d-flex flex-column flex-lg-row section-3">
           <div className="col-12 col-lg-6 text-center section-3-image">
             <Image
               src={ImageSection3}
               alt="shared payment demo"
-              className="d-block m-auto w-100 w-lg-75"
+              className="d-block m-auto"
             />
           </div>
-          <div className="col-12 col-lg-6 px-0 text-center text-lg-left section-3-text">
+          <div className="col-12 col-lg-6 text-center text-lg-left section-3-text">
             <h2 className="display-2 section-title">
               Shared payments made simple
             </h2>
@@ -91,7 +91,7 @@ const MainContent = () => {
 
       {/* SECTION 4 */}
       <Section divider>
-        <div className="text-center">
+        <div className="text-center section-4">
           <div className="section-4-text">
             <h2 className="display-2 section-title">
               A framework built for the long term
@@ -105,16 +105,13 @@ const MainContent = () => {
             </p>
             <a href="/">Read how Hapu’s tribal background defines our app</a>
           </div>
-          <Image
-            src={ImageSection4}
-            className="d-none d-lg-block m-auto w-lg-75"
-          />
+          <Image src={ImageSection4} className="d-none d-lg-block m-auto" />
         </div>
       </Section>
 
       {/* SECTION 5 */}
       <Section>
-        <div className="text-center">
+        <div className="text-center section-5">
           <Image src={ImageSection5} />
           <h2 className="display-2 mt-4 section-title">
             Coming soon: Nanny Share Daily Diary!
