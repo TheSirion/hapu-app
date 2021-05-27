@@ -33,10 +33,10 @@ This is a list of changes made to the project after I delivered it to Jungle Dev
   These changes resulted in these results in Lighthouse: 
 
   *Desktop*
-  <img src="https://imgur.com/2KGf5gq.png" alt="Lighthouse result on desktop" />
+  <img src="https://imgur.com/2KGf5gq.png" alt="Lighthouse result on desktop" style="display: block" />
 
   *Mobile*
-  <img src="https://i.imgur.com/zUsLULB.png" alt="Lighthouse result on mobile" />
+  <img src="https://i.imgur.com/zUsLULB.png" alt="Lighthouse result on mobile" style="display: block" />
 
 ## Installing And Running Locally
 1. First of all, make sure you have both Git and NodeJS installed in your computer. Git is a version control command line program that we'll use to download the project from GitHub. NodeJS is a JavaScript run-time that comes bundled with npm, a package manager we'll use to install and manage the dependencies Hapu relies on and don't come in the GitHub repository. They're both essential for Hapu to run. 
