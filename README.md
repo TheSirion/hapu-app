@@ -31,8 +31,8 @@ This is a list of changes made to the project after I delivered it to Jungle Dev
   - Updated the <title> tag from "Hapu" to "Hapu Nanny Share".
   
   These changes resulted in these results in Lighthouse: 
-  ![Lighthouse test on desktop](https://www.dropbox.com/s/83zqjvnibgrkpmd/lighthouse_desktop.png?dl=0 "Lighthouse test on Desktop")
-  ![Lighthouse test on mobile](https://www.dropbox.com/s/zzpt0pn9favq2gl/lighthouse_mobile.png?dl=0 "Lighthouse test on Desktop")
+  ![Lighthouse test on desktop](https://www.dropbox.com/s/83zqjvnibgrkpmd/lighthouse_desktop.png "Lighthouse test on Desktop")
+  ![Lighthouse test on mobile](https://www.dropbox.com/s/zzpt0pn9favq2gl/lighthouse_mobile.png "Lighthouse test on Desktop")
 
 ## Installing And Running Locally
 1. First of all, make sure you have both Git and NodeJS installed in your computer. Git is a version control command line program that we'll use to download the project from GitHub. NodeJS is a JavaScript run-time that comes bundled with npm, a package manager we'll use to install and manage the dependencies Hapu relies on and don't come in the GitHub repository. They're both essential for Hapu to run. 
