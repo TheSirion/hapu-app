@@ -20,7 +20,13 @@ const Footer = () => {
         <h2 className="display-2">Become a nanny share host</h2>
         <p>Takes less than 5 minutes to get started</p>
         <Button variant="secondary" className="d-flex text-left m-auto">
-          <Image src={Calendar} className="mr-3 align-self-center" />
+          <Image
+            src={Calendar}
+            alt=""
+            width="32px"
+            height="32px"
+            className="mr-3 align-self-center"
+          />
           <div>
             Create Your Nanny Share <br />{' '}
             <small>Takes less than 5 minutes</small>
@@ -32,25 +38,30 @@ const Footer = () => {
         <Container className="my-5">
           <Row>
             <Col className="col-12 col-lg-3 justify-self-start align-self-center">
-              <Image src={LogoComplete} />
+              <Image
+                src={LogoComplete}
+                alt="Hapu logo"
+                width="64px"
+                height="24px"
+              />
             </Col>
             <Col className="d-flex flex-wrap justify-content-center align-items-center">
-              <h5 className="display-5 mx-2 footer-link">
+              <h5 className="display-5 mx-2 mb-lg-0">
                 <a href="/" className="footer-link">
                   Share Your Nanny
                 </a>
               </h5>
-              <h5 className="display-5 mx-2">
+              <h5 className="display-5 mx-2 mb-lg-0">
                 <a href="/" className="footer-link">
                   Our Story
                 </a>
               </h5>
-              <h5 className="display-5 mx-2">
+              <h5 className="display-5 mx-2 mb-lg-0">
                 <a href="/" className="footer-link">
                   Blog
                 </a>
               </h5>
-              <h5 className="display-5 mx-2">
+              <h5 className="display-5 mx-2 mb-lg-0">
                 <a href="/" className="footer-link">
                   Terms &amp; Privacy
                 </a>
@@ -58,13 +69,29 @@ const Footer = () => {
             </Col>
             <Col className="col-12 col-lg-3 d-flex justify-content-center">
               <a href="/">
-                <Image src={Facebook} alt="facebook button" />
+                <Image
+                  src={Facebook}
+                  alt="facebook button"
+                  width="47px"
+                  height="47px"
+                />
               </a>
               <a href="/">
-                <Image src={Twitter} alt="twitter button" className="mx-3" />
+                <Image
+                  src={Twitter}
+                  alt="twitter button"
+                  width="47px"
+                  height="47px"
+                  className="mx-3"
+                />
               </a>
               <a href="/">
-                <Image src={Instagram} alt="instagram button" />
+                <Image
+                  src={Instagram}
+                  alt="instagram button"
+                  width="47px"
+                  height="47px"
+                />
               </a>
             </Col>
           </Row>

@@ -13,7 +13,15 @@
   text-decoration: underline;
 }
 
-.header h2,
+.header h1,
 .header p {
   color: white;
+}
+
+.header h1 {
+  margin-bottom: 1.5rem;
+}
+
+.header p {
+  font-size: 1.125rem;
 }

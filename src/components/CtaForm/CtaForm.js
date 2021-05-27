@@ -3,6 +3,8 @@ import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import Col from 'react-bootstrap/Col'
 
+import { sendToJungleDev } from '@apis/jungleDevApi'
+
 import './CtaForm.css'
 
 const CtaForm = () => {
@@ -18,23 +20,7 @@ const CtaForm = () => {
     }
 
     const data = { name, email }
-
-    try {
-      const result = await fetch(
-        'https://api.jungledevs.com/api/v1/challenge-newsletter/',
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(data),
-        }
-      )
-
-      console.log(await result.json())
-    } catch (error) {
-      console.log(error)
-    }
+    sendToJungleDev(data)
   }
 
   return (

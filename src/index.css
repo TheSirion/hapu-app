@@ -87,7 +87,8 @@ img {
   border-radius: 4px;
 }
 
-.btn-primary:hover, .btn-primary:focus {
+.btn-primary:hover,
+.btn-primary:focus {
   background-color: var(--hover-color-primary);
 }
 
@@ -100,12 +101,12 @@ img {
   background: var(--brand-secondary);
 }
 
-.btn-secondary:hover, .btn-secondary:focus {
+.btn-secondary:hover,
+.btn-secondary:focus {
   background-color: var(--hover-color-secondary);
 }
 
 .btn-secondary:active {
-
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -117,7 +118,7 @@ img {
   margin: 0 1rem;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 992px) {
   .divider {
     margin: 0 20%;
   }
