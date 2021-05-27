@@ -23,11 +23,16 @@ This is a list of changes made to the project after I delivered it to Jungle Dev
   - Improved responsive sizing for the images. Now they're less likely to look blurry in some screen sizes;
   - Added alt tags to images that didn't have one, and updated the ones that had to make sure they were more descriptive.
 - 05/26/2021
+  
   These changes were made specially based on Lighthouse metrics. While the score still isn't perfect for all of them, the changes made at least took the page from two yellow grades to all greens.
   - Added `width` and `height` attributes to every image;
   - Added a missing alt attribute to the calendar icon in the button in Footer; 
   - Removed references to missing files brought by Create-React-App that were unnecessary and were causing the app to print errors into the console;
-  - Updated the <title> tag from "Hapu" to "Hapu Nanny Share". 
+  - Updated the <title> tag from "Hapu" to "Hapu Nanny Share".
+  
+  These changes resulted in these results in Lighthouse: 
+  ![Lighthouse test on desktop](https://www.dropbox.com/s/83zqjvnibgrkpmd/lighthouse_desktop.png?dl=0 "Lighthouse test on Desktop")
+  ![Lighthouse test on mobile](https://www.dropbox.com/s/zzpt0pn9favq2gl/lighthouse_mobile.png?dl=0 "Lighthouse test on Desktop")
 
 ## Installing And Running Locally
 1. First of all, make sure you have both Git and NodeJS installed in your computer. Git is a version control command line program that we'll use to download the project from GitHub. NodeJS is a JavaScript run-time that comes bundled with npm, a package manager we'll use to install and manage the dependencies Hapu relies on and don't come in the GitHub repository. They're both essential for Hapu to run. 
