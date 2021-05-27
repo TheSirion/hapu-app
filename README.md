@@ -33,9 +33,11 @@ This is a list of changes made to the project after I delivered it to Jungle Dev
   These changes resulted in these results in Lighthouse: 
 
   *Desktop*
+
   <img src="https://imgur.com/2KGf5gq.png" alt="Lighthouse result on desktop" style="display: block" />
 
   *Mobile*
+  
   <img src="https://i.imgur.com/zUsLULB.png" alt="Lighthouse result on mobile" style="display: block" />
 
 ## Installing And Running Locally
