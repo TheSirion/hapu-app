@@ -24,7 +24,7 @@ This is a list of changes made to the project after I delivered it to Jungle Dev
   - Added alt tags to images that didn't have one, and updated the ones that had to make sure they were more descriptive.
 - 05/26/2021
   These changes were made specially based on Lighthouse metrics. While the score still isn't perfect for all of them, the changes made at least took the page from two yellow grades to all greens.
-  - Added `width` and `height` attributes to every png image;
+  - Added `width` and `height` attributes to every image;
   - Added a missing alt attribute to the calendar icon in the button in Footer; 
   - Removed references to missing files brought by Create-React-App that were unnecessary and were causing the app to print errors into the console;
   - Updated the <title> tag from "Hapu" to "Hapu Nanny Share". 

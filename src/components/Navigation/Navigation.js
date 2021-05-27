@@ -12,7 +12,7 @@ const Navigation = () => {
   return (
     <Navbar className="navbar py-0 justify-content-between">
       <Navbar.Brand href="/" className="pt-0">
-        <Image src={Badge} alt="Logo Badge" />
+        <Image src={Badge} alt="Logo Badge" width="48" height="64px" />
       </Navbar.Brand>
       <Nav className="mr-auto d-none d-lg-inline-flex">
         <Nav.Link href="/" className="nav-item mx-lg-3">

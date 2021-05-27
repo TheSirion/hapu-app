@@ -41,7 +41,7 @@ const MainContent = () => {
               alt="Nanny Share map UI demo"
               width="554px"
               height="371px"
-              className="d-block m-auto"
+              className="d-block m-auto h-auto"
             />
           </div>
         </div>
@@ -72,7 +72,7 @@ const MainContent = () => {
               alt="Shared Payment UI demo"
               width="456px"
               height="336px"
-              className="d-block m-auto"
+              className="d-block m-auto h-auto"
             />
           </div>
           <div className="col-12 col-lg-6 text-center text-lg-left section-3-text">
