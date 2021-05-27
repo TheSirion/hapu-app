@@ -9,7 +9,13 @@ const Hero = () => {
   return (
     <section className="hero d-flex justify-content-center px-5 m-0">
       <div className="text-center flex">
-        <Image src={ProfileImage} alt="Profile Image" className="avatar" />
+        <Image
+          src={ProfileImage}
+          alt="Profile Image"
+          width="66px"
+          height="66px"
+          className="avatar"
+        />
         <h4 className="display-4">
           <a href="/">Sarah&apos;s day care available now in North Sydney</a>{' '}
           Wednesday, Thursday, Friday - 7:30 - 5:30

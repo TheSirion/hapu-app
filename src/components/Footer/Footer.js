@@ -20,7 +20,7 @@ const Footer = () => {
         <h2 className="display-2">Become a nanny share host</h2>
         <p>Takes less than 5 minutes to get started</p>
         <Button variant="secondary" className="d-flex text-left m-auto">
-          <Image src={Calendar} className="mr-3 align-self-center" />
+          <Image src={Calendar} alt="" className="mr-3 align-self-center" />
           <div>
             Create Your Nanny Share <br />{' '}
             <small>Takes less than 5 minutes</small>

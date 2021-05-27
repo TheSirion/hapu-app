@@ -39,6 +39,8 @@ const MainContent = () => {
             <Image
               src={ImageSection1}
               alt="Nanny Share map UI demo"
+              width="554px"
+              height="371px"
               className="d-block m-auto"
             />
           </div>
@@ -68,6 +70,8 @@ const MainContent = () => {
             <Image
               src={ImageSection3}
               alt="Shared Payment UI demo"
+              width="456px"
+              height="336px"
               className="d-block m-auto"
             />
           </div>
@@ -107,8 +111,10 @@ const MainContent = () => {
           </div>
           <Image
             src={ImageSection4}
-            className="d-none d-lg-block m-auto"
             alt="payment history UI demo"
+            width="984px"
+            height="392px"
+            className="d-none d-lg-block m-auto"
           />
         </div>
       </Section>
@@ -116,7 +122,12 @@ const MainContent = () => {
       {/* SECTION 5 */}
       <Section>
         <div className="text-center section-5">
-          <Image src={ImageSection5} alt="Daily Diary logo" />
+          <Image
+            src={ImageSection5}
+            width="216px"
+            height="96px"
+            alt="Daily Diary logo"
+          />
           <h2 className="display-2 mt-4 section-title">
             Coming soon: Nanny Share Daily Diary!
           </h2>

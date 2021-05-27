@@ -27,12 +27,23 @@ const Header = () => {
               and create new flexible, affordable solutions in childcare.
             </p>
             <a className="header-link align-self-end" href="/">
-              <Image src={PlayButton} alt="play button" className="mr-3" />
+              <Image
+                src={PlayButton}
+                alt="play button"
+                width="48"
+                height="48"
+                className="mr-3"
+              />
               See hapu in action (27 seconds)
             </a>
           </Col>
           <Col lg={6} className="d-none d-lg-flex justify-content-end">
-            <Image src={HeaderImage} alt="Nanny Share notification demo" />
+            <Image
+              src={HeaderImage}
+              alt="Nanny Share notification demo"
+              width="316px"
+              height="290px"
+            />
           </Col>
         </Row>
       </Container>
